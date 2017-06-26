@@ -1,0 +1,136 @@
+/* line 1, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, linkcode, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 8, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 11, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 15, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+body {
+  font-family: Helvetica Neue, Roboto, microsoft yahei;
+  line-height: 1;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 62.5%; }
+
+/* line 24, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 28, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 32, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none; }
+
+/* line 37, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 42, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 47, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 50, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+input, textarea {
+  outline: none; }
+
+/* line 53, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 58, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(http://img1.gtimg.com/ln/pics/hv1/226/249/2218/144289171.jpg) center 0 no-repeat;
+  background-size: cover; }
+
+/* line 67, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+.dl-comment {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: .24rem; }
+  /* line 73, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+  .dl-comment li {
+    height: .6rem;
+    line-height: .6rem;
+    margin-top: .2rem;
+    overflow: hidden; }
+    /* line 78, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+    .dl-comment li .dl-comment-con {
+      position: relative;
+      float: left;
+      height: .6rem;
+      line-height: .6rem;
+      max-width: 80%; }
+      /* line 84, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+      .dl-comment li .dl-comment-con .dl-comment-userface {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: .6rem;
+        height: .6rem;
+        margin-right: .2rem;
+        border-radius: 50%;
+        overflow: hidden; }
+        /* line 93, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+        .dl-comment li .dl-comment-con .dl-comment-userface img {
+          width: 100%;
+          height: 100%; }
+      /* line 98, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+      .dl-comment li .dl-comment-con .dl-comment-username {
+        float: left;
+        width: 100%;
+        height: .6rem;
+        padding: 0 .35rem 0 .8rem;
+        border-radius: .6rem;
+        background-color: rgba(160, 212, 104, 0.8);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+
+/* line 114, D:/Dean/Dean.Work/Project/MobileLiveComment/css/style.scss */
+.upcomment {
+  animation: mymove 5s 1 forwards;
+  -webkit-animation: mymove 5s 1 forwards; }
+
+@keyframes mymove {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@-webkit-keyframes mymove {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+/*# sourceMappingURL=style.css.map */

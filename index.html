@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>移动端直播评论系统</title>
+    <link rel="stylesheet" href="css/style.css"> </head>
+    <script>
+     ~ function () {
+        function e() {
+            r.innerText = "html{font-size:" + (a.style.fontSize = a.getBoundingClientRect().width / o * d + "px") + " !important;}"
+        }
+        var t = navigator.userAgent,
+            n = (t.match(/(iPhone|iPad|iPod)/), t.match(/Android/i), window),
+            i = document,
+            a = i.documentElement,
+            o = (n.devicePixelRatio || 1, 375),
+            d = 50,
+            r = (i.head.querySelector('[name="viewport"]'), i.createElement("style"));
+        r.innerText = "html{font-size:50px !important}", i.head.appendChild(r), e(), n.addEventListener("resize", e, !1), a.className += t.match(/ucbrowser/i) ? " app-uc " : ""
+    }();
+    </script>
+    <script src="https://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+<body>
+    <div class="wrap">
+        <div class="dl-comment">
+            <ul></ul>
+        </div>
+    </div>
+    <script>
+        /*当前配置信息可修改 begin */
+        var config = {
+            id: 1402618862, //评论ID
+        };
+        /*当前配置信息可修改 end */
+    </script>
+    <script src="js/comment.js"></script>
+</body>
+
+</html>
